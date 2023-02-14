@@ -1,0 +1,404 @@
+/* -------------GLOBAL CSS STARTS----------------- */
+
+:root {
+    --blue: #0000ff;
+    /*-----------VARIABLE DECLARED------------*/
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button {
+    padding: 10px 15px 10px;
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid var(--blue);
+}
+
+button:hover {
+    background-color: #fff;
+    color: var(--blue);
+    border-color: #000;
+}
+
+p {
+    font-size: 17px
+}
+
+/* -------------GLOBAL CSS ENDS----------------- */
+
+
+/*--------------HEADER SECTION STARTS------------------*/
+
+.header_logo {
+    width: 70px;
+    height: auto;
+    padding:6px;
+}
+
+.header_navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header_navigation ul li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.header_navigation ul li:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+/*--------------HEADER SECTION ENDS------------------*/
+
+/*--------------BANNER SECTION STARTS----------------*/
+
+.banner_section {
+    width: 100%;
+    height: auto;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_content_box {
+    width: 500px;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    margin: 35px auto;
+}
+
+.banner_content_box_first_line {
+    font-size: 19px;
+    padding: 8px 10px 0px 10px;
+}
+
+.banner_content_box_main_heading {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 8px 8px 0px 8px;
+}
+
+.banner_content_box_text {
+    font-size: 17px;
+    font-family: Arial;
+    padding: 10px;
+    line-height: 26px;
+}
+.banner_content_box_button button{
+    background-color:#fff;
+    cursor: pointer;
+    border:1px solid var(--blue);
+    color:blue;
+}
+
+/*--------------BANNER SECTION ENDS----------------*/
+
+/*--------------CARD SECTION STARTS----------------*/
+
+.card_section {
+    width: auto;
+    height: auto;
+    /* margin-top: 20px; */
+}
+
+.card_section .col-md-3 {
+    background-color: #0d6efd;
+    padding: 25px;
+}
+
+.card_section .col-md-3:nth-child(even) {
+    background-color: #084298;
+}
+
+.card_content_box {
+    color: #fff;
+    padding: 19px 7px 11px 5px;
+    width: 100%;
+    height: auto;
+}
+
+.card_content_box h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.card_button_adjust button {
+    margin: 10px 0px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+}
+
+/*--------------CARD SECTION ENDS----------------*/
+
+/*--------------CONTEXT SECTION STARTS----------------*/
+
+.context_main_box {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* background-color: cadetblue; */
+}
+
+.context_left_box {
+    max-width: 100%;
+    width: auto;
+    /* background-color: green; */
+    /* color: #fff; */
+}
+
+.context_left_box_font {
+    font-size: 33px;
+}
+
+.context_right_box {
+    max-width: 100%;
+    width: auto;
+    /* background-color: orchid; */
+    /* color: #fff; */
+}
+
+.context_right_box_font {
+    line-height: 25px;
+}
+
+/*--------------CONTEXT SECTION ENDS----------------*/
+
+/*-------------- THREE CARD SECTION STARTS----------------*/
+
+.three_card_section {
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+}
+
+.three_card_section_content_box {
+    /* background-color: rgb(241, 169, 80); */
+    border: 1px solid #fff;
+    padding: 10px;
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.three_card_section_content_box_image {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 17px;
+    color: #fff;
+    font-size: 54px;
+    text-align: center;
+}
+
+.three_card_section_content_box_content {
+    line-height: 25px;
+}
+
+.three_card_section_content_box_content_heading {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial;
+    color:#fff;
+}
+
+.three_card_section_content_box_content_text {
+    font-size: 15px;
+}
+
+
+/*--------------THREE CARD SECTION ENDS----------------*/
+
+/*--------------FIRST PROJECT SECTION STARTS----------------*/
+
+.project_section {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.project_section_left_box {
+    max-width: 100%;
+    width: auto;
+    height: 100%;
+    /* background-color: goldenrod; */
+}
+
+.project_section_right_box {
+    max-width: 100%;
+    width: auto;
+    /* background-color: orangered; */
+    color: #000000;
+    padding: 5px;
+}
+
+.project_section_right_box_heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.project_section_right_box_text_box {
+    background-color: #fff;
+    padding-left: 5px;
+    line-height: 25px;
+}
+
+.project_section_right_box_text_box ul {
+    padding-left: 0%;
+    line-height: 28px;
+}
+
+/*--------------FIRST PROJECT SECTION ENDS----------------*/
+
+/*--------------QUALITY TEXT STARTS----------------*/
+
+.quality_text_main {
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.quality_text {
+    width: 550px;
+    height: 170px;
+    /* background-color: #000000; */
+    text-align: center;
+    /* color: #fff; */
+}
+
+.quality_text p {
+    word-spacing: 5px;
+}
+
+.quality_text h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*--------------QUALITY TEXT ENDS----------------*/
+
+/*--------------QUALITY CARD STARTS----------------*/
+
+.quality_card {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.quality_card_box {
+    background-color: #0000ff;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.quality_card_box_image_box {
+    font-size: 60px;
+}
+
+.quality_card_box_image_box_heading {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/*--------------QUALITY CARDS ENDS----------------*/
+
+ /* --------------FOOTER SECTION STARTS--------------- */
+ footer{
+    background-color: #000;
+ }
+.footer_area{
+    width: 100%;
+    height: 300px;
+    color:#fff;
+    display: flex;
+    align-items: center;
+}
+.footer_left_area{
+    width:100%;
+    height:auto;
+    /* background-color: orange; */
+    padding:7px 12px 4px 4px;
+}
+
+.footer_left_area_heading h3{
+    font-weight:600;
+    font-size:30px;
+}
+.footer_left_area_searchbar{
+    margin-top:10px;
+}
+.footer_left_area_searchbar input{
+    /* background-color: greenyellow; */
+    height:40px;
+    width:50%;
+    /* border-bottom:1px solid black; */
+}
+.footer_left_area_searchbar button{
+    border-radius:16px;
+}
+.right_first{
+    padding:17px;
+    width:225px;
+    height:auto;
+    /* background-color:grey; */
+    /* border:2px solid red; */
+    text-align: center;
+}
+.right_first h6{
+    font-size:20px;
+}
+.right_first ul li{
+    line-height: 28px;
+    cursor: pointer;
+}
+.right_first ul li:hover{
+    color:#0d6efd;
+}
+.right_first h6{
+    margin-left:30px;
+}
+
+/* ---------------FOOTER SECTION ENDS---------------- */
+
+
